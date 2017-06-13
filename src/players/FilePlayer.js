@@ -117,7 +117,8 @@ export default class FilePlayer extends Base {
     const style = {
       width: '100%',
       height: '100%',
-      display: url ? 'block' : 'none'
+      display: url ? 'block' : 'none',
+      objectFit: 'cover'
     }
     return (
       <Element
